@@ -54,7 +54,7 @@ public class JDBCSingletonDemo {
 				System.in.read();
 
 			}// End of case 1
-				break;
+				//break;
 			case 2: {
 				System.out.print("Enter the username : ");
 				String username = br.readLine();
@@ -68,7 +68,7 @@ public class JDBCSingletonDemo {
 				System.in.read();
 
 			}// End of case 2
-				break;
+				//break;
 			case 3: {
 				System.out.print("Enter the userid,  you want to delete: ");
 				int userid = Integer.parseInt(br.readLine());
@@ -89,7 +89,7 @@ public class JDBCSingletonDemo {
 				System.in.read();
 
 			}// End of case 3
-				break;
+				//break;
 			case 4: {
 				System.out.print("Enter the username,  you want to update: ");
 				String username = br.readLine();
@@ -110,7 +110,7 @@ public class JDBCSingletonDemo {
 				System.in.read();
 
 			}// end of case 4
-				break;
+				//break;
 
 			default:
 				return;

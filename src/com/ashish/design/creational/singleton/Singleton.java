@@ -24,7 +24,7 @@ class TestClass {
 		print("s2", s2);
 		
 		// Reflection to violate singleton...
-		Class clazz = Class.forName("com.ashish.design.singleton.Singleton");
+		Class clazz = Class.forName("com.ashish.design.creational.singleton.Singleton");
 		Constructor<Singleton> constr =  clazz.getDeclaredConstructor();
 		constr.setAccessible(true);    // changes the access modifier of the constructor...
 		Singleton s3 = constr.newInstance();
