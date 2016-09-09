@@ -1,0 +1,37 @@
+Strategy Pattern:
+=================
+
+Defines a family of algorithms(fly and can't fly), encapsulate each one of them, and make them interchangeable.
+The strategy pattern let the algorithm vary independently from clients that use it.
+
+When to use strategy pattern ?
+------------------------------
+
+1. When you want to define a class that will have one behavior that is similar to other behavior in a list.
+   (similarity is flying whether animal is flying/not flying)
+
+2. I want the class object to be able to choose from :
+   - Not Flying
+   - Fly with Wings
+   - Fly super fast
+   
+3. When you want to use one of several behaviors dynamically.
+   
+Advantages:
+-----------
+
+1. Reduces long lists of condition.
+2. Avoids duplicate code.
+3. Keeps class changes from forcing other class changes(*).
+4. Can hide complicated/secret code from the user.
+
+Disadvantages:
+--------------
+
+1. Negative: Increased Number of objects/Classes.
+   
+Points To Remember:
+-------------------
+
+1. A super class change shouldn't affect the sub-class and vice-versa.
+   
