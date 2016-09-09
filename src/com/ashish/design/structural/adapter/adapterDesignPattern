@@ -1,5 +1,5 @@
 Adapter Pattern:
-----------------
+================
 
 An Adapter Pattern says that just "converts the interface of a class into another interface that a client wants".
 
@@ -20,7 +20,8 @@ It is used:
 When an object needs to utilize an existing class with an incompatible interface.
 When you want to create a reusable class that cooperates with classes which don't have compatible interfaces.
 
-Example of Adapter Pattern
+Example of Adapter Pattern:
+---------------------------
 
 Let's understand the example of adapter design pattern by the above UML diagram.
 
@@ -35,13 +36,4 @@ There are the following specifications for the adapter pattern:
 4. Client: This class will interact with the Adapter class.
 
 url :  http://www.javatpoint.com/adapter-pattern
-
-
-
-
-
-
-
-
-
 
